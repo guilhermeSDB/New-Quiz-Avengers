@@ -2,7 +2,6 @@
 
 <p align="center">
     <img src="https://media.giphy.com/media/1XyQ8Zq1CqkZ8ri02R/giphy.gif" style="border-radius: 20px;margin: 0 auto;" />
-    <h1 align="center">Quiz dos Vingadores feito em Java com GlassFish Server</h1>
 </p>
 
 > Quiz sobre os vingadores, refeito em PHP.
