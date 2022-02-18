@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" type="imagex/png" href="avengers-icon2.png">
+    <link rel="shortcut icon" type="imagex/png" href="img/avengers-icon2.png">
 
     <!-- Import animate -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <title>Quiz</title>
+    <title>Index - Quiz</title>
 </head>
 
 <body>
@@ -29,7 +29,7 @@
     </header>
     <main>
         <section>
-            <form action="resultados" method="post">
+            <form action="resultado.php" method="post">
                 <!-- Começo da questao 1 -->
                 <div id="1" class="question_card">
                     <img class="animate__animated animate__fadeInLeft question_img"

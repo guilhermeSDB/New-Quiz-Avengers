@@ -1,15 +1,50 @@
+@import 'global';
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
 body{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;    
+    div.result{
 
-    section {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;      
+      justify-content: center;
+      align-items: center;
 
-        .question_result {
-            width: 100%;
-            padding: 0 auto;
-          }
-          
-          .imgResult{
-            @media screen and (max-width: 768px) { width: 90%!important; }
-          }
+      img.result_img{
+        border-radius: 25px;
+        width: 400px;
+        height: 700px;
+        object-fit: cover;
+        object-position: center;
+        margin: 1rem 0;
+
+        @media screen and (max-width: 768px) { width: 70%; height: 80% }
+
+      }
+
+      h1.result_name{
+        font-size: 1.5rem;
+        margin: 1rem 0;
+      }
+
+      button{
+        @include defaultBtn ($purple, $secondWhite);
+        margin: 1rem auto;
+      }
     }
-
+    
 }
